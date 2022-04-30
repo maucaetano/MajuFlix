@@ -1,0 +1,88 @@
+<div class="carrosel-principal">
+            <div id="carrosel-principal" class="owl-carousel owl-theme">
+                
+                <!--Bloco 1-->
+                <div class="filme-principal item1" >
+                    <div class="container">
+                        <h3 class="titulo">MENINAS</h3>
+                        <p class="descricao">Donas de um coração lindo e um sorriso contagiante. Elas e seus mistérios, de mostrarem ser pequenas meninas e serem no fundo grandes mulheres.
+                            
+                        </p>
+                    </div>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                    
+                </div>
+                <!--Bloco 2-->
+                <div class="filme-principal item2">
+                    <div class="container">
+                        <h3 class="titulo">FOFAS</h3>
+                        <p class="descricao">Filhas, meninas, mulheres, sereias, tudo está em você e você pode mudar o mundo!
+                            
+                        </p>
+                    </div>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                    
+                </div>
+                <!--Bloco 3-->
+                <div class="filme-principal item3">
+                    <div class="container">
+                        <h3 class="titulo">VÍDEOS</h3>
+                        <p class="descricao">Vídeos do batizado, vídeo de outros!
+                            
+                        </p>
+                    </div>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                    
+                </div>
+                <!--Bloco 4-->
+                <div class="filme-principal item4">
+                    <div class="container">
+                        <h3 class="titulo">ÁLBUNS</h3>
+                        <p class="descricao">Álbuns: barrigon, 3, 6, 9 meses. Chá de fralda. Vovô e vovó. Bisa!</p>
+                            
+                        </p>
+                    </div>
+                    <div class="botoes">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </div>
+
+foto 1,2,5,6

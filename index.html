@@ -5,6 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+
+    <!--Owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    
+
     <title>MaJuFlix</title>
 </head>
 <body>
@@ -13,32 +22,136 @@
             <h2 class="logo">MAJUFLIX</h2>
             <nav>
                 <a href="#">Início</a>
+                <a href="#fotos">Fotos</a>
                 <a href="#">Álbuns</a>
-                <a href="#">Fotos</a>
-                <a href="#">Vídeos</a>
+                <a href="#video">Vídeos</a>
+                <a href="#">Sobre</a>
             </nav>         
         </div>
     </header>
     
     <main>
-        <div class="filme-principal">
-            <div class="container">
-                <h3 class="titulo">MENINAS</h3>
-                <p class="descricao">Donas de um coração lindo e um sorriso contagiante. Elas e seus mistérios, de mostrarem ser pequenas meninas e serem no fundo grandes mulheres.
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </div>
-            <div class="botoes">
-                <button role="button" class="botao">
-                    ASSISTIR AGORA
-                </button>
-                <button role="button" class="botao">
-                    MAIS INFORMAÇÕES
-                </button>
-            </div>
-            
-        </div>
+                        
+                
+                <div class="filme-principal">
+                    <div class="container">
+                        <h3 class="titulo">MENINAS</h3>
+                        <p class="descricao">Donas de um coração lindo e um sorriso contagiante. Elas e seus mistérios, de mostrarem ser pequenas meninas e serem no fundo grandes mulheres.
+                            
+                        </p>
+                    </div>
+                    <div class="botoes" onClick="playVideo()">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            <a href="#video">ASSISTIR AGORA</a> 
+                        </button>
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-circle-info"></i>
+                            MAIS INFORMAÇÕES
+                        </button>
+                    </div>
+                    
+                </div>
+     
     </main>
+    <h3 class="logo">Fotos</h3>
+    <div id="fotos" class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini1.jpg" >
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini2.jpg" >
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini3.jpg" >
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini4.jpg" >
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini5.jpg" >
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini6.jpg" >
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini16.jpg" >
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini14.jpg" >
+            </div>
+        </div>
+    </div>
+    <h3 class="logo">Álbuns</h3>
+    <div class="carrosel-filmes2">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini7.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini3.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini10.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini8.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini9.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini15.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini12.jpg">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini13.jpg">
+            </div>
+        </div>
+            
+    </div>
+
+    <h3 class="logo">Álbuns</h3>
+    <div class="carrosel-filmes3">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini11.jpg">
+            </div>                 
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini17.jpg" alt="imagem6">
+            </div>
+            <div class="item">
+                <img class="box-filmes" src="img/imgF/mini18.jpg" alt="imagem6">
+            </div>
+        </div>
+    </div>
+
+        <h3 class="logo">Vídeos</h3>
+
+        <div id="video"> 
+            <video id="myVideo"width="320" height="240" controls="controls" autoplay="autoplay">
+                <source src="/video/video1.mp4" type="video/mp4">
+                <object data="" width="320" height="240">
+                <embed width="320" height="240" src="/video/video1.mp4">
+                </object>
+            </video>
+            <video width="320" height="240" controls="controls" autoplay="autoplay">
+                <source src="/video/video2.mp4" type="video/mp4">
+                <object data="" width="320" height="240">
+                <embed width="320" height="240" src="/video/video2.mp4">
+                </object>
+            </video>
+        </div=>
+       
+
+    <script src="https://kit.fontawesome.com/3108812716.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 
 </body>
+<footer class="rodape">Desenvolvido por Mauricio Caetano</footer>
 </html>
